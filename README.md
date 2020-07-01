@@ -1,3 +1,17 @@
+## Get Started
+
+1. In terminal
+    - rm -r .git
+    - npm install
+    - npm run init
+
+2. In package.json
+    - rewrite name
+    - rewrite homepage
+    - rewrite script connect
+
+3. npm run connect // with your github
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
