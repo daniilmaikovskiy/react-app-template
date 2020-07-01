@@ -4,12 +4,14 @@
     - name
     - homepage
     - script connect
+    - script gitname
+    - script gitemail
 
 2. In terminal
     - npm run init
 
 3. Delete in
-    - package.json scripts: connect, newproject, newrepo, init
+    - package.json scripts: connect, gitemail, gitname, gitconfig, newproject, newrepo, init
     - readme: Get Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
