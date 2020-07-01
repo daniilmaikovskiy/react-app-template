@@ -19,13 +19,15 @@
     "eject": "react-scripts eject",
     "commit": "git add .; git commit -m",
     "push": "git push -u origin master",
-    "connect": "git remote add origin https://github.com/daniilmaikovskiy/react-app-template.git",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "format": "prettier ./src --write",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
-    "init": "eslint --init"
+    "connect": "git remote add origin https://github.com/daniilmaikovskiy/react-app-template.git",
+    "newproject": "rm -r .git; git init; npm install; eslint --init; npm run commit 'init'",
+    "newrepo": "npm run connect; npm run push",
+    "init": "npm run newproject; npm run newrepo"
   },
   "browserslist": {
     "production": [
