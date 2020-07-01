@@ -2,15 +2,14 @@
 
 1. In terminal
     - rm -r .git
+    - git init
     - npm install
     - npm run init
 
-2. In package.json
-    - rewrite name
-    - rewrite homepage
-    - rewrite script connect
-
-3. npm run connect // with your github
+2. In package.json rewrite
+    - name
+    - homepage
+    - script connect
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

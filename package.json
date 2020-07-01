@@ -25,7 +25,7 @@
     "format": "prettier ./src --write",
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix",
-    "init": "git init; eslint --init"
+    "init": "eslint --init"
   },
   "browserslist": {
     "production": [
