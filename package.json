@@ -7,6 +7,8 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "node-sass": "^4.14.1",
+    "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -18,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "commit": "git add .; git commit -m",
-    "push": "git push -u origin master",
+    "push:master": "git push -u origin master",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "format": "prettier ./src --write",
@@ -29,8 +31,7 @@
     "gitname": "git config user.name 'daniilmaikovskiy'",
     "gitconfig": "rm -r .git; git init; npm run gitname; npm run gitemail",
     "newproject": "npm run gitconfig; chmod -R 777 .git; npm install; npm run commit 'init'",
-    "newrepo": "npm run connect; npm run push",
-    "init": "npm run newproject; npm run newrepo"
+    "init": "npm run newproject; npm run connect; sudo chmod -R 777 .git"
   },
   "browserslist": {
     "production": [

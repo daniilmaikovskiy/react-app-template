@@ -1,8 +1,10 @@
 import React from 'react';
-import './app.css';
+import classes from './app.module.scss';
 
-export default class App extends React.PureComponent {
-  render() {
-    return <h1>Hello World</h1>;
-  }
+export default function App() {
+  return (
+    <div className={classes.wrapper}>
+      <h1>Hello World</h1>
+    </div>
+  );
 }

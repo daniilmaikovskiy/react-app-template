@@ -11,10 +11,8 @@
     - sudo npm run init
 
 3. Delete in
-    - package.json scripts: connect, gitemail, gitname, gitconfig, newproject, newrepo, init
+    - package.json scripts: connect, gitemail, gitname, gitconfig, newproject, init
     - readme: Get Started
-    
-4. sudo chmod -R 777 .git
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
