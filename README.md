@@ -17,7 +17,7 @@
     - package.json scripts: connect, gitemail, gitname, gitconfig, newproject, init
     - readme: Get Started
 
-# gh-pages: https://daniilmaikovskiy.github.io/react-app-template
+### gh-pages: https://daniilmaikovskiy.github.io/react-app-template
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
