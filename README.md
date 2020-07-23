@@ -1,4 +1,4 @@
-## Get Started
+## Get Started (instruction for Ubuntu)
 
 1. In package.json rewrite
     - name
@@ -7,12 +7,17 @@
     - script gitname
     - script gitemail
 
-2. In terminal
+2. In this file rewrite
+    - gh-pages link below Get Started
+
+3. In terminal
     - sudo npm run init
 
-3. Delete in
+4. Delete in
     - package.json scripts: connect, gitemail, gitname, gitconfig, newproject, init
     - readme: Get Started
+
+# gh-pages: https://daniilmaikovskiy.github.io/react-app-template
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
