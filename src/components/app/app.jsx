@@ -1,12 +1,13 @@
 import React from 'react';
-import classes from './app.module.scss';
+import { wrapper, greeting, signature } from './app.module.scss';
 
 const App = () => {
   return (
-    <div className={classes.wrapper}>
-      <h1>Hello World</h1>
+    <div className={wrapper} style={{ minHeight: window.innerHeight }}>
+      <h1 className={greeting}>Welcome to my react-app-template</h1>
+      <span className={signature}>Author: daniil maikovskiy</span>
     </div>
   );
-}
+};
 
 export default App;
